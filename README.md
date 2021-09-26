@@ -4,9 +4,9 @@ Sistema para o cadastro de bolos, tortas e interessados pelos produtos.
 
 Desenvolvido utilizando as tecnologias: PHP 7.4, Laravel Framework 8, Laravel Passport, Laravel Queues, Laravel Oauth2, Laravel Mail e PostgreSQL.
 
-Base de dados: https://github.com/TalesSathler/candy-store-laravel/database/dump.
+Base de dados: https://github.com/TalesSathler/candy-store-laravel/tree/master/database/dump.
 
-Requisições via Postman: https://github.com/TalesSathler/candy-store-laravel/public/postman
+Requisições via Postman: https://github.com/TalesSathler/candy-store-laravel/tree/master/public/postman
 
 <br>
 
