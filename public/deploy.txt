@@ -1,0 +1,1 @@
+php artisan queue:listen --queue=emails --tries=3 --timeout=60 &

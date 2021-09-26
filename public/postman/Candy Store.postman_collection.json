@@ -1,0 +1,720 @@
+{
+	"info": {
+		"_postman_id": "940a2b90-9a71-4b72-a5ec-d296c4e812eb",
+		"name": "Candy Store",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cake",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/product?productType=cake",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product"
+							],
+							"query": [
+								{
+									"key": "productType",
+									"value": "cake"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get product",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/product/1",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "product_name",
+									"value": "Chocolate",
+									"type": "text"
+								},
+								{
+									"key": "product_weight",
+									"value": "2.54",
+									"type": "text"
+								},
+								{
+									"key": "product_price",
+									"value": "43.20",
+									"type": "text"
+								},
+								{
+									"key": "product_amount",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "product_type",
+									"value": "Cake",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://candy-store.localhost/api/product",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "product_id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "product_name",
+									"value": "Chocolate",
+									"type": "text"
+								},
+								{
+									"key": "product_weight",
+									"value": "2.54",
+									"type": "text"
+								},
+								{
+									"key": "product_price",
+									"value": "43.20",
+									"type": "text"
+								},
+								{
+									"key": "product_amount",
+									"value": "6",
+									"type": "text"
+								},
+								{
+									"key": "product_type",
+									"value": "Cake",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://candy-store.localhost/api/product/2",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/product/2",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pie",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/product?productType=pie",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product"
+							],
+							"query": [
+								{
+									"key": "productType",
+									"value": "pie"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get product",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/product/2",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "product_name",
+									"value": "Apple Pie",
+									"type": "text"
+								},
+								{
+									"key": "product_weight",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "product_price",
+									"value": "35.90",
+									"type": "text"
+								},
+								{
+									"key": "product_amount",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "product_type",
+									"value": "Pie",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://candy-store.localhost/api/product",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "product_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "product_name",
+									"value": "Apple Pie",
+									"type": "text"
+								},
+								{
+									"key": "product_weight",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "product_price",
+									"value": "35.90",
+									"type": "text"
+								},
+								{
+									"key": "product_amount",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "product_type",
+									"value": "Pie",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://candy-store.localhost/api/product/1",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/product/2",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"product",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Interested",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/interested",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"interested"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get interested",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/interested/1",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"interested",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "interested_name",
+									"value": "Tales 2",
+									"type": "text"
+								},
+								{
+									"key": "interested_email",
+									"value": "p.talessathler@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "product_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://candy-store.localhost/api/interested",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"interested"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "interested_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "interested_name",
+									"value": "Tales",
+									"type": "text"
+								},
+								{
+									"key": "interested_email",
+									"value": "tales241095@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "product_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "interested_sent",
+									"value": "true",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://candy-store.localhost/api/interested/1",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"interested",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://candy-store.localhost/api/interested/1",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"api",
+								"interested",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autenticação",
+			"item": [
+				{
+					"name": "Auth client",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "multipart/form-data",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "CMTmQ1DmtMI8p02RinMKbcdZKPOifcsNjbcB7Exf",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "atendente@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://candy-store.localhost/oauth/token",
+							"protocol": "http",
+							"host": [
+								"candy-store",
+								"localhost"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYTJlOGFkOGRhNTg5ZGI0M2FmYzA5N2ViYWQ2MDBlNTUyZjMzMmE4ZmFjZWM2MTUxMGJmN2JlY2ExNmNlMTIzODU2NjkxNzA1Yzk2Y2I1YWIiLCJpYXQiOjE2MzI2OTI1NDMuMzU1ODg4LCJuYmYiOjE2MzI2OTI1NDMuMzU1OTEsImV4cCI6MTY2NDIyODU0My4zMjg1NzUsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.f86JR5BENpcUqAopVSFcsqyM1QVGIlhueSqqhJz1ckjfx8VLGqaM3C7hNGVc2dlvUB2vYdiMPQlN3yqlEGCW8qSlzfv-vI5xd-bA_AbnYZH_3b0JUcOGVcuCm9BZVd1fRpl_hezdMjPYGsJtDJrah7WVldNrtB3pg6Y5V7wrOb9kXpsZa8YYkzL7DKjiiee_ulEZZjrIITBl1FoBi6FKSoetFhn72q_IcTnoT5CKftkKhRmaVDs72MzLLYjL9cFryLILuJ0u66ZyLG0XGQmtpqbGkMzzKwHXECOqSN18gGD2Jl_REwrTxjbm_wL2ZW1CbFUyTkz929NpqgO53LSQxW9NrC4xtEd5tlbNTc-QXOjm6Oqsj6Krw6WiHNvUwJWR-ak_fxUrxzXYC4lYgaZEBbhf0u29Y97BTnnKgyL5SB7U9dPkkPqWYuSuaAFPs3H2jUoY_DZstKpi-PGwHANJX3UlWVnQE8SRodxGdevWppxLAIICneGh9zMUOojks2fFsw7-lvxgDw0zDCYO2QXb7PM9lLDovAbLxqkcAp4nu5txDOncpIDBGM1lEaetCNAxQF88JhHLLLU5HDg2Xn_dcgRqxE4JyIttqtWOC5bTfvHpMsvdPTeJweq4ko1SsEGs4ZSc5R8k3gMl3OJTxvCK2dE6cdcAbtzRGG8bXLxuhB4",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
