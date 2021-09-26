@@ -88,12 +88,12 @@
 								},
 								{
 									"key": "product_weight",
-									"value": "2.54",
+									"value": "2540",
 									"type": "text"
 								},
 								{
 									"key": "product_price",
-									"value": "4320",
+									"value": "43.20",
 									"type": "text"
 								},
 								{
@@ -297,12 +297,12 @@
 								},
 								{
 									"key": "product_weight",
-									"value": "4",
+									"value": "4000",
 									"type": "text"
 								},
 								{
 									"key": "product_price",
-									"value": "3590",
+									"value": "35.90",
 									"type": "text"
 								},
 								{
@@ -358,12 +358,12 @@
 								},
 								{
 									"key": "product_weight",
-									"value": "4",
+									"value": "4000",
 									"type": "text"
 								},
 								{
 									"key": "product_price",
-									"value": "3590",
+									"value": "35.90",
 									"type": "text"
 								},
 								{
