@@ -28,6 +28,7 @@ atendente@gmail.com
 Senha:
 123
 
+<br>
 
 ### Configurar execução da fila de envio de e-mail:
 php artisan queue:listen --queue=emails --tries=3 --timeout=60 &
